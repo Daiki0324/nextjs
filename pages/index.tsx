@@ -3,13 +3,13 @@ import supabase from '../utils/supabase';
 import { InputTodoForm } from '../components/InputTodoForm';
 import { TodoList } from '../components/ToDoList';
 
-const Home : React.FC = ()  => {
+const Home = ()  => {
   return (
     <>
       <InputTodoForm />
       <TodoList />
     </>
-  );
+  )
 }
 
 export default Home;
